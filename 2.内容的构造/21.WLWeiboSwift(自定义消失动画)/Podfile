@@ -1,0 +1,13 @@
+
+platform :ios, '9.0'
+use_frameworks!
+
+target 'WLWeiboSwift' do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'SnapKit'
+pod 'SVProgressHUD'
+pod 'MJRefresh'
+pod 'HYLabel'
+end

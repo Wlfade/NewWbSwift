@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70636D7A1BAFDD36000EA06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636D791BAFDD36000EA06C /* AppDelegate.swift */; };
+		70636D7C1BAFDD36000EA06C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636D7B1BAFDD36000EA06C /* ViewController.swift */; };
+		70636D7F1BAFDD36000EA06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70636D7D1BAFDD36000EA06C /* Main.storyboard */; };
+		70636D811BAFDD36000EA06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70636D801BAFDD36000EA06C /* Assets.xcassets */; };
+		70636D841BAFDD36000EA06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70636D821BAFDD36000EA06C /* LaunchScreen.storyboard */; };
+		70636D8F1BAFDD36000EA06C /* _1_FMDB____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636D8E1BAFDD36000EA06C /* _1_FMDB____Tests.swift */; };
+		70636D9A1BAFDD36000EA06C /* _1_FMDB____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636D991BAFDD36000EA06C /* _1_FMDB____UITests.swift */; };
+		70636DB31BAFDDA4000EA06C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 70636DA91BAFDDA4000EA06C /* FMDatabase.m */; settings = {ASSET_TAGS = (); }; };
+		70636DB41BAFDDA4000EA06C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70636DAB1BAFDDA4000EA06C /* FMDatabaseAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		70636DB51BAFDDA4000EA06C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70636DAD1BAFDDA4000EA06C /* FMDatabasePool.m */; settings = {ASSET_TAGS = (); }; };
+		70636DB61BAFDDA4000EA06C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 70636DAF1BAFDDA4000EA06C /* FMDatabaseQueue.m */; settings = {ASSET_TAGS = (); }; };
+		70636DB71BAFDDA4000EA06C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 70636DB21BAFDDA4000EA06C /* FMResultSet.m */; settings = {ASSET_TAGS = (); }; };
+		70636DBA1BAFDDE9000EA06C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70636DB91BAFDDE8000EA06C /* libsqlite3.tbd */; };
+		70636DBE1BAFDDFF000EA06C /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636DBC1BAFDDFF000EA06C /* FMDatabaseAdditionsVariadic.swift */; settings = {ASSET_TAGS = (); }; };
+		70636DBF1BAFDDFF000EA06C /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636DBD1BAFDDFF000EA06C /* FMDatabaseVariadic.swift */; settings = {ASSET_TAGS = (); }; };
+		70636DC11BAFDE27000EA06C /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636DC01BAFDE27000EA06C /* SQLiteManager.swift */; settings = {ASSET_TAGS = (); }; };
+		70636DC31BAFDEC4000EA06C /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636DC21BAFDEC4000EA06C /* String+Category.swift */; settings = {ASSET_TAGS = (); }; };
+		70636DC51BAFE090000EA06C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70636DC41BAFE08F000EA06C /* Person.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70636D8B1BAFDD36000EA06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70636D6E1BAFDD36000EA06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70636D751BAFDD36000EA06C;
+			remoteInfo = "01-FMDB基本使用";
+		};
+		70636D961BAFDD36000EA06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70636D6E1BAFDD36000EA06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70636D751BAFDD36000EA06C;
+			remoteInfo = "01-FMDB基本使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70636D761BAFDD36000EA06C /* 01-FMDB基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-FMDB基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70636D791BAFDD36000EA06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70636D7B1BAFDD36000EA06C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70636D7E1BAFDD36000EA06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70636D801BAFDD36000EA06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70636D831BAFDD36000EA06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70636D851BAFDD36000EA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70636D8A1BAFDD36000EA06C /* 01-FMDB基本使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-FMDB基本使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70636D8E1BAFDD36000EA06C /* _1_FMDB____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_FMDB____Tests.swift"; sourceTree = "<group>"; };
+		70636D901BAFDD36000EA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70636D951BAFDD36000EA06C /* 01-FMDB基本使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-FMDB基本使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70636D991BAFDD36000EA06C /* _1_FMDB____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_FMDB____UITests.swift"; sourceTree = "<group>"; };
+		70636D9B1BAFDD36000EA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70636DA81BAFDDA4000EA06C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		70636DA91BAFDDA4000EA06C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		70636DAA1BAFDDA4000EA06C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		70636DAB1BAFDDA4000EA06C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		70636DAC1BAFDDA4000EA06C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		70636DAD1BAFDDA4000EA06C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		70636DAE1BAFDDA4000EA06C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		70636DAF1BAFDDA4000EA06C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		70636DB01BAFDDA4000EA06C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		70636DB11BAFDDA4000EA06C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		70636DB21BAFDDA4000EA06C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		70636DB81BAFDDC0000EA06C /* Swift-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge.h"; sourceTree = "<group>"; };
+		70636DB91BAFDDE8000EA06C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		70636DBC1BAFDDFF000EA06C /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		70636DBD1BAFDDFF000EA06C /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		70636DC01BAFDE27000EA06C /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		70636DC21BAFDEC4000EA06C /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		70636DC41BAFE08F000EA06C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70636D731BAFDD36000EA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70636DBA1BAFDDE9000EA06C /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D871BAFDD36000EA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D921BAFDD36000EA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70636D6D1BAFDD36000EA06C = {
+			isa = PBXGroup;
+			children = (
+				70636DB91BAFDDE8000EA06C /* libsqlite3.tbd */,
+				70636D781BAFDD36000EA06C /* 01-FMDB基本使用 */,
+				70636D8D1BAFDD36000EA06C /* 01-FMDB基本使用Tests */,
+				70636D981BAFDD36000EA06C /* 01-FMDB基本使用UITests */,
+				70636D771BAFDD36000EA06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70636D771BAFDD36000EA06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70636D761BAFDD36000EA06C /* 01-FMDB基本使用.app */,
+				70636D8A1BAFDD36000EA06C /* 01-FMDB基本使用Tests.xctest */,
+				70636D951BAFDD36000EA06C /* 01-FMDB基本使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70636D781BAFDD36000EA06C /* 01-FMDB基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				70636DA71BAFDDA4000EA06C /* fmdb */,
+				70636D791BAFDD36000EA06C /* AppDelegate.swift */,
+				70636D7B1BAFDD36000EA06C /* ViewController.swift */,
+				70636DC01BAFDE27000EA06C /* SQLiteManager.swift */,
+				70636DC41BAFE08F000EA06C /* Person.swift */,
+				70636DB81BAFDDC0000EA06C /* Swift-Bridge.h */,
+				70636DC21BAFDEC4000EA06C /* String+Category.swift */,
+				70636D7D1BAFDD36000EA06C /* Main.storyboard */,
+				70636D801BAFDD36000EA06C /* Assets.xcassets */,
+				70636D821BAFDD36000EA06C /* LaunchScreen.storyboard */,
+				70636D851BAFDD36000EA06C /* Info.plist */,
+			);
+			path = "01-FMDB基本使用";
+			sourceTree = "<group>";
+		};
+		70636D8D1BAFDD36000EA06C /* 01-FMDB基本使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				70636D8E1BAFDD36000EA06C /* _1_FMDB____Tests.swift */,
+				70636D901BAFDD36000EA06C /* Info.plist */,
+			);
+			path = "01-FMDB基本使用Tests";
+			sourceTree = "<group>";
+		};
+		70636D981BAFDD36000EA06C /* 01-FMDB基本使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				70636D991BAFDD36000EA06C /* _1_FMDB____UITests.swift */,
+				70636D9B1BAFDD36000EA06C /* Info.plist */,
+			);
+			path = "01-FMDB基本使用UITests";
+			sourceTree = "<group>";
+		};
+		70636DA71BAFDDA4000EA06C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				70636DBB1BAFDDFF000EA06C /* Swift extensions */,
+				70636DA81BAFDDA4000EA06C /* FMDatabase.h */,
+				70636DA91BAFDDA4000EA06C /* FMDatabase.m */,
+				70636DAA1BAFDDA4000EA06C /* FMDatabaseAdditions.h */,
+				70636DAB1BAFDDA4000EA06C /* FMDatabaseAdditions.m */,
+				70636DAC1BAFDDA4000EA06C /* FMDatabasePool.h */,
+				70636DAD1BAFDDA4000EA06C /* FMDatabasePool.m */,
+				70636DAE1BAFDDA4000EA06C /* FMDatabaseQueue.h */,
+				70636DAF1BAFDDA4000EA06C /* FMDatabaseQueue.m */,
+				70636DB01BAFDDA4000EA06C /* FMDB.h */,
+				70636DB11BAFDDA4000EA06C /* FMResultSet.h */,
+				70636DB21BAFDDA4000EA06C /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		70636DBB1BAFDDFF000EA06C /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+				70636DBC1BAFDDFF000EA06C /* FMDatabaseAdditionsVariadic.swift */,
+				70636DBD1BAFDDFF000EA06C /* FMDatabaseVariadic.swift */,
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70636D751BAFDD36000EA06C /* 01-FMDB基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70636D9E1BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用" */;
+			buildPhases = (
+				70636D721BAFDD36000EA06C /* Sources */,
+				70636D731BAFDD36000EA06C /* Frameworks */,
+				70636D741BAFDD36000EA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-FMDB基本使用";
+			productName = "01-FMDB基本使用";
+			productReference = 70636D761BAFDD36000EA06C /* 01-FMDB基本使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70636D891BAFDD36000EA06C /* 01-FMDB基本使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70636DA11BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用Tests" */;
+			buildPhases = (
+				70636D861BAFDD36000EA06C /* Sources */,
+				70636D871BAFDD36000EA06C /* Frameworks */,
+				70636D881BAFDD36000EA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70636D8C1BAFDD36000EA06C /* PBXTargetDependency */,
+			);
+			name = "01-FMDB基本使用Tests";
+			productName = "01-FMDB基本使用Tests";
+			productReference = 70636D8A1BAFDD36000EA06C /* 01-FMDB基本使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70636D941BAFDD36000EA06C /* 01-FMDB基本使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70636DA41BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用UITests" */;
+			buildPhases = (
+				70636D911BAFDD36000EA06C /* Sources */,
+				70636D921BAFDD36000EA06C /* Frameworks */,
+				70636D931BAFDD36000EA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70636D971BAFDD36000EA06C /* PBXTargetDependency */,
+			);
+			name = "01-FMDB基本使用UITests";
+			productName = "01-FMDB基本使用UITests";
+			productReference = 70636D951BAFDD36000EA06C /* 01-FMDB基本使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70636D6E1BAFDD36000EA06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					70636D751BAFDD36000EA06C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70636D891BAFDD36000EA06C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70636D751BAFDD36000EA06C;
+					};
+					70636D941BAFDD36000EA06C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 70636D751BAFDD36000EA06C;
+					};
+				};
+			};
+			buildConfigurationList = 70636D711BAFDD36000EA06C /* Build configuration list for PBXProject "01-FMDB基本使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70636D6D1BAFDD36000EA06C;
+			productRefGroup = 70636D771BAFDD36000EA06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70636D751BAFDD36000EA06C /* 01-FMDB基本使用 */,
+				70636D891BAFDD36000EA06C /* 01-FMDB基本使用Tests */,
+				70636D941BAFDD36000EA06C /* 01-FMDB基本使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70636D741BAFDD36000EA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70636D841BAFDD36000EA06C /* LaunchScreen.storyboard in Resources */,
+				70636D811BAFDD36000EA06C /* Assets.xcassets in Resources */,
+				70636D7F1BAFDD36000EA06C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D881BAFDD36000EA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D931BAFDD36000EA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70636D721BAFDD36000EA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70636DB31BAFDDA4000EA06C /* FMDatabase.m in Sources */,
+				70636D7C1BAFDD36000EA06C /* ViewController.swift in Sources */,
+				70636DBE1BAFDDFF000EA06C /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				70636DC31BAFDEC4000EA06C /* String+Category.swift in Sources */,
+				70636DB71BAFDDA4000EA06C /* FMResultSet.m in Sources */,
+				70636DB51BAFDDA4000EA06C /* FMDatabasePool.m in Sources */,
+				70636DC51BAFE090000EA06C /* Person.swift in Sources */,
+				70636D7A1BAFDD36000EA06C /* AppDelegate.swift in Sources */,
+				70636DB41BAFDDA4000EA06C /* FMDatabaseAdditions.m in Sources */,
+				70636DC11BAFDE27000EA06C /* SQLiteManager.swift in Sources */,
+				70636DB61BAFDDA4000EA06C /* FMDatabaseQueue.m in Sources */,
+				70636DBF1BAFDDFF000EA06C /* FMDatabaseVariadic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D861BAFDD36000EA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70636D8F1BAFDD36000EA06C /* _1_FMDB____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70636D911BAFDD36000EA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70636D9A1BAFDD36000EA06C /* _1_FMDB____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70636D8C1BAFDD36000EA06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70636D751BAFDD36000EA06C /* 01-FMDB基本使用 */;
+			targetProxy = 70636D8B1BAFDD36000EA06C /* PBXContainerItemProxy */;
+		};
+		70636D971BAFDD36000EA06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70636D751BAFDD36000EA06C /* 01-FMDB基本使用 */;
+			targetProxy = 70636D961BAFDD36000EA06C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70636D7D1BAFDD36000EA06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70636D7E1BAFDD36000EA06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70636D821BAFDD36000EA06C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70636D831BAFDD36000EA06C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70636D9C1BAFDD36000EA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70636D9D1BAFDD36000EA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70636D9F1BAFDD36000EA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-FMDB基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "01-FMDB基本使用/Swift-Bridge.h";
+			};
+			name = Debug;
+		};
+		70636DA01BAFDD36000EA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-FMDB基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "01-FMDB基本使用/Swift-Bridge.h";
+			};
+			name = Release;
+		};
+		70636DA21BAFDD36000EA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-FMDB基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-FMDB基本使用.app/01-FMDB基本使用";
+			};
+			name = Debug;
+		};
+		70636DA31BAFDD36000EA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-FMDB基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-FMDB基本使用.app/01-FMDB基本使用";
+			};
+			name = Release;
+		};
+		70636DA51BAFDD36000EA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-FMDB基本使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-FMDB基本使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		70636DA61BAFDD36000EA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-FMDB基本使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-FMDB----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-FMDB基本使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70636D711BAFDD36000EA06C /* Build configuration list for PBXProject "01-FMDB基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70636D9C1BAFDD36000EA06C /* Debug */,
+				70636D9D1BAFDD36000EA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70636D9E1BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70636D9F1BAFDD36000EA06C /* Debug */,
+				70636DA01BAFDD36000EA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70636DA11BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70636DA21BAFDD36000EA06C /* Debug */,
+				70636DA31BAFDD36000EA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70636DA41BAFDD36000EA06C /* Build configuration list for PBXNativeTarget "01-FMDB基本使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70636DA51BAFDD36000EA06C /* Debug */,
+				70636DA61BAFDD36000EA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70636D6E1BAFDD36000EA06C /* Project object */;
+}
